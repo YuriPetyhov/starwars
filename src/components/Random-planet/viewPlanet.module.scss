@@ -1,0 +1,20 @@
+.randomPlanetBlock {
+    display: flex;
+    background: #2c2c2c;
+    height: 200px;
+    
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+    }
+}
+
+.list {
+    display: inline-block;
+}
+.list li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid grey; 
+}
