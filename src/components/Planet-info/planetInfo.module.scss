@@ -1,0 +1,27 @@
+.personalinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #2c2c2c;
+  height: 200px;
+  width: 47%;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+  }
+}
+
+.list {
+  display: inline-block;
+  padding: 0px;
+  width: 50%;
+}
+.list li {
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+
+}

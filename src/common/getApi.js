@@ -1,7 +1,11 @@
 class SwapiService {
+<<<<<<< HEAD
     _urlBase = `https://swapi.co/api/`;
     _imgBase = `https://starwars-visualguide.com/assets/img/`
 
+=======
+    _urlBase = `https://swapi.co/api/`
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
     async getResource(url) {
         const body = await fetch(`${this._urlBase}${url}`);
         if(!body.ok) {
@@ -52,6 +56,7 @@ class SwapiService {
 
     }
 
+<<<<<<< HEAD
     getPersonImg = (id) => {
         return `${this._imgBase}characters/${id}.jpg`
     };
@@ -64,6 +69,8 @@ class SwapiService {
         return `${this._imgBase}starships/${id}.jpg`
     };
 
+=======
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
     _transformDataPeople = (people) => {
         return {
             id: this._getid(people),

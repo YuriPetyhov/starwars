@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .list {
   background: #2c2c2c;
@@ -23,3 +24,23 @@
 }
 
 @import "../../common-style/common";
+=======
+.personList {
+    background: #2c2c2c;
+    width: 47%;
+
+    ul {
+        margin: 0px;
+        display: block;
+        padding-left: 10px;
+        
+        li {
+            list-style: none;
+            display: block;
+            border-bottom: 1px solid gray;
+            padding: 10px 0px;
+        }
+    } 
+    
+}
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130

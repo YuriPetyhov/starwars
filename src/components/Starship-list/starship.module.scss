@@ -1,20 +1,34 @@
+<<<<<<< HEAD
 .list {
   background: #2c2c2c;
   width: 100%;
+=======
+.personList {
+  background: #2c2c2c;
+  width: 47%;
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
 
   ul {
     margin: 0px;
     display: block;
+<<<<<<< HEAD
     padding: 0px;
+=======
+    padding-left: 10px;
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
 
     li {
       list-style: none;
       display: block;
       border-bottom: 1px solid gray;
+<<<<<<< HEAD
       padding: 20px 10px 20px;
       &:hover {
         background: rgba(34,34,34, 0.8);
       }
+=======
+      padding: 10px 0px;
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
     }
   }
 

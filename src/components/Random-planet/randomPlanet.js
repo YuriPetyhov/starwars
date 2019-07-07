@@ -25,6 +25,7 @@ class RandomPlanet extends React.Component {
     }
     render() {
         const{ planet, planetIsLoding } = this.state;
+<<<<<<< HEAD
         return <div className={styles.randomPlanetBlock}>
             {!planetIsLoding
                 ? <Preloader/>
@@ -32,5 +33,11 @@ class RandomPlanet extends React.Component {
             }
             </div>
                 }
+=======
+        return !planetIsLoding 
+                ? <div className={styles.randomPlanetBlock}> <Preloader/> </div>
+                : <ViewPlanet planet = {planet} />
+            }    
+>>>>>>> 06e64984381476c3bdf2b7c675c2255ff39a1130
 }
 export default RandomPlanet;
