@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-right: 50px;
+    
+    span {
+        text-transform: uppercase;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+   
+    a {
+        width: 100px;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-align: center;
+        border-radius: 10px;
+
+        &:hover {
+            background: rgba(1,1,1,0.7) 
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header .logo {
+        display: none;
+    }
+}
+
+

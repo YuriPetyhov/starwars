@@ -1,0 +1,95 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #2c2c2c;
+  height: 200px;
+  width: 47%;
+  padding: 0px 10px;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+  }
+}
+
+.list {
+  display: inline-block;
+  padding: 0px;
+  width: 50%;
+}
+.list li {
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  padding-bottom: 10px;
+
+  span {
+    font-size: 20px;
+     &:first-child {
+       padding-right: 10px;
+     }
+  }
+
+}
+
+.infoStarShips {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #2c2c2c;
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  min-height: 400px;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .info {
+      .list span {
+        font-size: 15px;
+
+        &:last-child {
+          font-weight: bold;
+        }
+      }
+
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .info {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .infoStarShips {
+    flex-direction: column;
+
+
+    .list {
+      padding-top: 20px ;
+      width: 100%;
+      text-align: center;
+
+      span:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+}

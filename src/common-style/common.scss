@@ -1,0 +1,13 @@
+ @media (max-width: 1000px) {
+    li {
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .list {
+      width: 100%;
+    }
+  }

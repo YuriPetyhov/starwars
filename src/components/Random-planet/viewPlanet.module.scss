@@ -1,0 +1,52 @@
+.randomPlanetBlock {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+    }
+}
+
+.list {
+    display: inline-block;
+
+}
+.list li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) {
+
+ .randomPlanetBlock {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+     img {
+         width: 120px;
+         height: 120px;
+     }
+
+     .list {
+         width: 50%;
+         padding: 0px;
+         li {
+             padding: 5px 0px;
+         }
+        li,span {
+            font-size: 15px;
+        }
+     }
+ }
+}

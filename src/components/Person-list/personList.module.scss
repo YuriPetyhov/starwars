@@ -1,0 +1,25 @@
+
+.list {
+  background: #2c2c2c;
+  width: 47%;
+
+  ul {
+    margin: 0px;
+    display: block;
+    padding: 0px;
+
+    li {
+      list-style: none;
+      display: block;
+      border-bottom: 1px solid gray;
+      padding: 20px 10px 20px;
+      }
+
+      &:hover {
+        background: rgba(34,34,34, 0.8);
+      }
+  }
+
+}
+
+@import "../../common-style/common";
